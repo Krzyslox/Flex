@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans|Roboto&display=swap');
+$main-color: #8daae5;
+$default-font: arial,
+sans-serif;
+$special-font: 'pt sans',
+'roboto',
+arial,
+sans-serif;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    background-color: $main-color;
+    font-family: $default-font;
+}
+
+.wrapper {
+    //kontener
+    display: flex;
+    font-size: 2rem;
+    flex-wrap: wrap;
+
+    //wygląd
+    max-width: 1000px;
+    background-color: #fff;
+    margin: 0 auto;
+    box-shadow: 0 0 4px 0 #000;
+}
+
+.logo {
+    flex-basis: 200px;
+    height: 80px;
+    background-color: chartreuse;
+}
