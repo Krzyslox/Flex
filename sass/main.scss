@@ -24,9 +24,12 @@ html {
     display: flex;
     font-size: 2rem;
     flex-wrap: wrap;
+    flex-direction: row;
+    align-content: flex-start;
 
     //wygląd
     max-width: 1000px;
+    height: 100vh;
     background-color: #fff;
     margin: 0 auto;
     box-shadow: 0 0 4px 0 #000;
@@ -36,4 +39,34 @@ html {
     flex-basis: 200px;
     height: 80px;
     background-color: chartreuse;
+}
+
+.search {
+    background-color: darkcyan;
+    flex-grow: 1;
+}
+
+.settings {
+    background-color: lightcoral;
+    padding: 0 50px;
+}
+
+.menu {
+    flex-basis: 100%;
+    background-color: darkgoldenrod;
+}
+
+.main-articles {
+    background-color: darkred;
+    flex-basis: 100%;
+}
+
+.article-list {
+    background-color: darkturquoise;
+    flex-basis: 100%;
+}
+
+.footer {
+    background-color: darksalmon;
+    flex-basis: 100%;
 }
